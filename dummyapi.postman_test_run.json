@@ -1,0 +1,1702 @@
+{
+	"id": "56c3ff99-048e-4791-a081-8c037f4df657",
+	"name": "dummyapi",
+	"timestamp": "2023-08-28T09:26:09.205Z",
+	"collection_id": "20953587-7051de01-f470-4e84-b99f-09af77169ee0",
+	"folder_id": 0,
+	"environment_id": "20953587-732b1817-df11-4e2a-a4e4-0c3b49c01f59",
+	"totalPass": 360,
+	"delay": 1,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-28T09:24:51.174Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "07ceb82d-103d-43a9-aacf-abb74b33bc6a",
+			"name": "User list (no auth)",
+			"url": "https://dummyapi.io/data/v1/user",
+			"time": 168,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				353,
+				175,
+				180,
+				171,
+				177,
+				171,
+				167,
+				183,
+				172,
+				219,
+				169,
+				173,
+				173,
+				164,
+				177,
+				166,
+				171,
+				178,
+				171,
+				168
+			],
+			"allTests": [
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				},
+				{
+					"Status code is 403": true
+				}
+			]
+		},
+		{
+			"id": "c7d1ad33-f32f-469c-adb1-1e5ccef3754c",
+			"name": "User list",
+			"url": "https://dummyapi.io/data/v1/user",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				214,
+				275,
+				189,
+				211,
+				267,
+				198,
+				202,
+				251,
+				279,
+				249,
+				288,
+				250,
+				209,
+				210,
+				202,
+				271,
+				195,
+				194,
+				212,
+				239
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "156317ae-b098-493d-b817-a8a252fe28a1",
+			"name": "Pagination",
+			"url": "https://dummyapi.io/data/v1/user?page=1&limit=10",
+			"time": 201,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				222,
+				242,
+				208,
+				203,
+				241,
+				203,
+				266,
+				285,
+				252,
+				192,
+				273,
+				251,
+				196,
+				182,
+				283,
+				199,
+				190,
+				251,
+				203,
+				201
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				}
+			]
+		},
+		{
+			"id": "141dbb99-5555-499f-945f-ae6d7860a5bb",
+			"name": "Create user",
+			"url": "https://dummyapi.io/data/v1/user/create",
+			"time": 184,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				269,
+				265,
+				183,
+				283,
+				188,
+				194,
+				186,
+				188,
+				209,
+				178,
+				188,
+				174,
+				176,
+				533,
+				212,
+				276,
+				223,
+				214,
+				188,
+				184
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "f16315e4-5904-4637-81fb-db28fb29d1bf",
+			"name": "update user",
+			"url": "https://dummyapi.io/data/v1/user/64ec682dfcbadc294b53a988",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				262,
+				193,
+				451,
+				253,
+				266,
+				199,
+				262,
+				236,
+				194,
+				194,
+				190,
+				183,
+				191,
+				212,
+				197,
+				202,
+				191,
+				206,
+				242,
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0dc9b233-9b8d-4f7e-a323-0349acfbf69a",
+			"name": "Check user",
+			"url": "https://dummyapi.io/data/v1/user/64ec682dfcbadc294b53a988",
+			"time": 194,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				191,
+				187,
+				224,
+				192,
+				213,
+				276,
+				209,
+				274,
+				196,
+				201,
+				265,
+				199,
+				200,
+				251,
+				191,
+				198,
+				198,
+				183,
+				199,
+				194
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "351d89f0-d12e-49dc-8752-91ea364a4b57",
+			"name": "Create post",
+			"url": "https://dummyapi.io/data/v1/post/create",
+			"time": 193,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Cache-Control is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Cache-Control is present": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				251,
+				206,
+				199,
+				201,
+				223,
+				216,
+				287,
+				216,
+				188,
+				321,
+				203,
+				280,
+				202,
+				257,
+				256,
+				198,
+				201,
+				224,
+				203,
+				193
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Cache-Control is present": true
+				}
+			]
+		},
+		{
+			"id": "4e885775-e75e-4896-ab46-7c6ddf3dd4b6",
+			"name": "Check post",
+			"url": "https://dummyapi.io/data/v1/user/64ec682dfcbadc294b53a988",
+			"time": 263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				188,
+				184,
+				240,
+				195,
+				215,
+				186,
+				194,
+				192,
+				267,
+				193,
+				184,
+				179,
+				201,
+				197,
+				195,
+				186,
+				186,
+				183,
+				219,
+				263
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3ed73a6b-ab7c-4431-99ed-2990d1fcc3b1",
+			"name": "Check post list",
+			"url": "https://dummyapi.io/data/v1/post",
+			"time": 295,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				243,
+				221,
+				563,
+				277,
+				226,
+				230,
+				251,
+				233,
+				295,
+				305,
+				395,
+				271,
+				312,
+				250,
+				282,
+				218,
+				263,
+				323,
+				293,
+				295
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6e18f849-6857-45c8-9a28-19815ea5a7f0",
+			"name": "Create comment",
+			"url": "https://dummyapi.io/data/v1/comment/create",
+			"time": 202,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				258,
+				197,
+				263,
+				193,
+				224,
+				249,
+				223,
+				199,
+				229,
+				199,
+				271,
+				194,
+				208,
+				193,
+				191,
+				195,
+				204,
+				260,
+				243,
+				202
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "400573d9-eeea-4723-b97c-98ed258c3818",
+			"name": "Check comment",
+			"url": "https://dummyapi.io/data/v1/user/64ec682dfcbadc294b53a988/comment",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				232,
+				201,
+				221,
+				250,
+				257,
+				237,
+				217,
+				202,
+				197,
+				194,
+				267,
+				193,
+				208,
+				195,
+				199,
+				538,
+				193,
+				202,
+				204,
+				208
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "19a53b38-2121-442f-a52b-82b9457947fa",
+			"name": "Delete comment",
+			"url": "https://dummyapi.io/data/v1/comment/64ec682ffcbadc812453a9a9",
+			"time": 186,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				191,
+				198,
+				206,
+				199,
+				217,
+				202,
+				198,
+				192,
+				199,
+				192,
+				255,
+				266,
+				264,
+				192,
+				186,
+				190,
+				219,
+				278,
+				200,
+				186
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c285ab43-5474-431b-808c-c26db06fd209",
+			"name": "Check comment after delete",
+			"url": "https://dummyapi.io/data/v1/user/64ec682dfcbadc294b53a988/comment",
+			"time": 189,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				214,
+				268,
+				209,
+				233,
+				240,
+				204,
+				190,
+				259,
+				218,
+				198,
+				207,
+				244,
+				264,
+				239,
+				202,
+				221,
+				250,
+				192,
+				225,
+				189
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0a5fca49-b68b-4dc7-8fd6-59a8c89efff6",
+			"name": "Delete user",
+			"url": "https://dummyapi.io/data/v1/user/64ec682dfcbadc294b53a988",
+			"time": 189,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				189,
+				211,
+				205,
+				198,
+				206,
+				193,
+				189,
+				193,
+				196,
+				181,
+				186,
+				233,
+				243,
+				217,
+				186,
+				203,
+				219,
+				204,
+				192,
+				189
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "61c7094a-514c-4b54-870c-46e61a7968c8",
+			"name": "Check after removing",
+			"url": "https://dummyapi.io/data/v1/user/64ec682dfcbadc294b53a988",
+			"time": 176,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				256,
+				181,
+				179,
+				238,
+				252,
+				176,
+				210,
+				193,
+				196,
+				232,
+				229,
+				178,
+				184,
+				178,
+				190,
+				191,
+				253,
+				187,
+				186,
+				176
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				}
+			]
+		}
+	],
+	"count": 20,
+	"totalTime": 66291,
+	"collection": {
+		"requests": [
+			{
+				"id": "07ceb82d-103d-43a9-aacf-abb74b33bc6a",
+				"method": "GET"
+			},
+			{
+				"id": "c7d1ad33-f32f-469c-adb1-1e5ccef3754c",
+				"method": "GET"
+			},
+			{
+				"id": "156317ae-b098-493d-b817-a8a252fe28a1",
+				"method": "GET"
+			},
+			{
+				"id": "141dbb99-5555-499f-945f-ae6d7860a5bb",
+				"method": "POST"
+			},
+			{
+				"id": "f16315e4-5904-4637-81fb-db28fb29d1bf",
+				"method": "PUT"
+			},
+			{
+				"id": "0dc9b233-9b8d-4f7e-a323-0349acfbf69a",
+				"method": "GET"
+			},
+			{
+				"id": "351d89f0-d12e-49dc-8752-91ea364a4b57",
+				"method": "POST"
+			},
+			{
+				"id": "4e885775-e75e-4896-ab46-7c6ddf3dd4b6",
+				"method": "GET"
+			},
+			{
+				"id": "3ed73a6b-ab7c-4431-99ed-2990d1fcc3b1",
+				"method": "GET"
+			},
+			{
+				"id": "6e18f849-6857-45c8-9a28-19815ea5a7f0",
+				"method": "POST"
+			},
+			{
+				"id": "400573d9-eeea-4723-b97c-98ed258c3818",
+				"method": "GET"
+			},
+			{
+				"id": "19a53b38-2121-442f-a52b-82b9457947fa",
+				"method": "DELETE"
+			},
+			{
+				"id": "c285ab43-5474-431b-808c-c26db06fd209",
+				"method": "GET"
+			},
+			{
+				"id": "0a5fca49-b68b-4dc7-8fd6-59a8c89efff6",
+				"method": "DELETE"
+			},
+			{
+				"id": "61c7094a-514c-4b54-870c-46e61a7968c8",
+				"method": "GET"
+			}
+		]
+	}
+}
